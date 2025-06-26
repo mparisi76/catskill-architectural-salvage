@@ -4974,6 +4974,11 @@ busboy@1.6.0:
   dependencies:
     streamsearch "^1.1.0"
 
+caddy@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/caddy/-/caddy-0.0.13.tgz#d5bcf91ef4c11440842ef5253d901c704f0548c7"
+  integrity sha512-rc9RPEM0O32dzL52y9Udm+Y/2ll8cbaIVx0x4Q6yBrUtPvSyaDj46XPzhexLhfD0nh63+PsPVW1uMSsrTVZgag==
+
 call-bind-apply-helpers@^1.0.0, call-bind-apply-helpers@^1.0.1, call-bind-apply-helpers@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz#4b5428c222be985d79c3d82657479dbe0b59b2d6"
