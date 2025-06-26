@@ -1,3 +1,4 @@
+"use client"
 import { HttpTypes } from "@medusajs/types"
 import { Button, Input } from "@/components/atoms"
 import { Heading, Label } from "@medusajs/ui"
