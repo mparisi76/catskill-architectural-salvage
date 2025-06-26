@@ -1,4 +1,3 @@
-"use client"
 import { HttpTypes } from "@medusajs/types"
 import { Button, Input } from "@/components/atoms"
 import { Heading, Label } from "@medusajs/ui"
@@ -9,7 +8,7 @@ export default function CartPromotionCode({
   cart,
 }: {
   cart:
-    | (HttpTypes.StoreCart & { promotions?: HttpTypes.StorePromotion[] })
+    | (HttpTypes.StoreCart & { promotions?: HttpTypes.StoreCartPromotion[] }) // <--- CHANGE THIS LINE
     | null
 }) {
   const [promotionCode, setPromotionCode] = useState("")
